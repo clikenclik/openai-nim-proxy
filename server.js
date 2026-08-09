@@ -23,13 +23,13 @@ const ENABLE_THINKING_MODE = false; // Set to true to enable chat_template_kwarg
 const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'meta/llama-3.2-90b-vision-instruct',
   'gpt-4': 'z-ai/glm-5.2',
-  'gpt-4-turbo': 'nvidia/nemotron-3-nano-omni-30b-a3b-reasoning',
+  'gpt-4-turbo': 'minimaxai/minimax-m3',
   'gpt-4o': 'meta/llama-3.2-90b-vision-instruct',
   'claude-3-opus': 'openai/gpt-oss-120b',
   'claude-3-sonnet': 'openai/gpt-oss-20b',
   'gemini-pro': 'qwen/qwen3-next-80b-a3b-thinking',
   'meta/llama-3.2-90b-vision-instruct': 'meta/llama-3.2-90b-vision-instruct',
-  'nvidia/nemotron-3-nano-omni-30b-a3b-reasoning': 'nvidia/nemotron-3-nano-omni-30b-a3b-reasoning',
+  'minimaxai/minimax-m3': 'minimaxai/minimax-m3',
   'z-ai/glm-5.2': 'z-ai/glm-5.2'
 };
 
