@@ -24,13 +24,14 @@ const MODEL_MAPPING = {
   'gpt-3.5-turbo': 'meta/llama-3.3-70b-instruct',
   'gpt-4': 'z-ai/glm-5.2',
   'gpt-4-turbo': 'minimaxai/minimax-m3',
-  'gpt-4o': 'meta/llama-3.2-90b-vision-instruct',
+  'gpt-4o': 'openai/gpt-oss-120b',
   'claude-3-opus': 'openai/gpt-oss-120b',
   'claude-3-sonnet': 'openai/gpt-oss-20b',
   'gemini-pro': 'qwen/qwen3-next-80b-a3b-thinking',
   'meta/llama-3.3-70b-instruct': 'meta/llama-3.3-70b-instruct',
   'minimaxai/minimax-m3': 'minimaxai/minimax-m3',
-  'z-ai/glm-5.2': 'z-ai/glm-5.2'
+  'z-ai/glm-5.2': 'z-ai/glm-5.2',
+  'openai/gpt-oss-120b': 'openai/gpt-oss-120b'
 };
 
 // Health check endpoint
