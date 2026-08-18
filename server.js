@@ -187,6 +187,7 @@ app.post('/v1/chat/completions', async (req, res) => {
       });
     } else {
       // Transform NIM response to OpenAI format with reasoning
+         console.log(JSON.stringify(response.data, null, 2));
       const openaiResponse = {
         id: `chatcmpl-${Date.now()}`,
         object: 'chat.completion',
